@@ -1,0 +1,22 @@
+.updates{
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    width: 85%;
+    font-size: 13px;
+    flex-direction: column;
+    
+}
+.update{
+    display: flex;
+    gap: 0.5rem;
+}
+.update>img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.not1>div>span:nth-child(1){
+    font-weight: bold;
+}

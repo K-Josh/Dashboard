@@ -1,0 +1,34 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+.right>h1{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px){
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .RightSide{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .RightSide>div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .right>h1{
+        margin-top: 1rem;
+    }
+    h3{
+        margin-top: 12px;
+    }
+}
